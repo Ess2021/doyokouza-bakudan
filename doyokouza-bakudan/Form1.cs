@@ -41,9 +41,8 @@ namespace doyokouza_bakudan
             else
             {
                 ((Button)sender).Enabled = false;
+                カウンター++;
             }
-
-            カウンター++;
 
             if (カウンター == 8)
             {
